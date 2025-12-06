@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "782844555139",
+    "firebase_url": "https://wassel-455714-default-rtdb.firebaseio.com",
+    "project_id": "wassel-455714",
+    "storage_bucket": "wassel-455714.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782844555139:android:4c0fb61f13289fe29810b6",
+        "android_client_info": {
+          "package_name": "com.example.wassel_rider_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwbPGLIIo-tMewr07HYai_5Ws6aXhUrHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

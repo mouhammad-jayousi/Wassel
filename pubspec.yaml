@@ -1,0 +1,89 @@
+name: wassel_rider_app
+description: Wassel - A modern taxi booking app for riders
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+  lottie: ^2.7.0
+  flutter_rating_bar: ^4.0.1
+  smooth_page_indicator: ^1.1.0
+  
+  # State Management
+  provider: ^6.1.0
+  get_it: ^7.6.0
+  
+  # Navigation
+  go_router: ^12.0.0
+  
+  # Maps & Location
+  google_maps_flutter: ^2.5.0
+  google_maps_flutter_web: ^0.5.4
+  geolocator: ^10.1.0
+  geocoding: ^2.1.1
+  flutter_polyline_points: ^2.0.0
+  
+  # HTTP & API
+  dio: ^5.4.0
+  pretty_dio_logger: ^1.3.1
+  http: ^1.1.0
+  
+  # Storage
+  shared_preferences: ^2.2.2
+  
+  # Utils
+  intl: ^0.18.1
+  uuid: ^4.2.1
+  equatable: ^2.0.5
+  
+  # Permissions
+  permission_handler: ^11.0.1
+  
+  # Image
+  image_picker: ^1.0.5
+  
+  # Country Picker
+  country_picker: ^2.0.20
+  
+  # Live Chat
+  webview_flutter: ^4.4.2
+  
+  # Firebase
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  cloud_firestore: ^4.13.6
+  firebase_messaging: ^14.7.9
+  firebase_storage: ^11.5.6
+  firebase_crashlytics: ^3.4.8
+  firebase_analytics: ^10.7.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/images/cash.png
+    - assets/images/driver.png
+    - assets/images/cars/express.png
+    - assets/images/cars/economy.png
+    - assets/images/cars/xl.png
+    - assets/images/cars/comfort.png
+    - assets/images/cars/wassel.png
+    - assets/icons/
+    - assets/animations/
